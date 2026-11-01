@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Search</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- HORNI NAVIGACE -->
+    <header class="top-nav">
+        <a href="https://VASE-PORTFOLIO.cz" target="_blank" class="nav-link">Portfolio</a>
+        <a href="forms.html" class="nav-link">Formulare</a>
+        <a href="image.html" class="nav-link">Obrazky</a>
+    </header>
+
+    <!-- HLAVNI PROSTOR VYHLEDAVANI -->
+    <main class="search-container">
+        <h1 class="logo-text">google.</h1>
+        
+        <form action="https://www.google.com/search" method="GET" class="search-form">
+            <div class="search-input-box">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="text" name="q" class="search-input" required autofocus autocomplete="off">
+            </div>
+            
+            <div class="search-buttons">
+                <button type="submit" class="btn-search">Vyhledat</button>
+                <button type="submit" name="btnI" value="1" class="btn-search">Zkusím štěstí</button>
+            </div>
+        </form>
+    </main>
+
+    <!-- PATICKA S POVINNYMI ODKAZY -->
+    <footer>
+        <div class="footer-links">
+            <a href="https://VASE-PORTFOLIO.cz" target="_blank">Portfolio</a>
+            <a href="citace.md" target="_blank">Zdroje</a>
+            <a href="https://validator.w3.org/check?uri=referer" target="_blank">HTML Validace</a>
+            <a href="https://jigsaw.w3.org/css-validator/validator?uri=referer" target="_blank">CSS Validace</a>
+        </div>
+    </footer>
+
+</body>
+</html>
